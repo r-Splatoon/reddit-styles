@@ -23,6 +23,7 @@ jobs:
     strategy:
       matrix:
         node-version: [16.x]
+        python-version: ["3.8"]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -50,15 +51,18 @@ jobs:
         with:
           name: themeartifact
           path: theme
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ matrix.python-version }}
       # Deploy
-      - name: 'Publish reddit stylesheet'
-        description: 'Publish a reddit stylesheet to a subreddit'
-        runs:
-          using: 'docker'
-          image: 'Dockerfile'
-          args:
-            - ThisWoomyIsSalty
-            - theme
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Deploy Reddit themes
+        runs: |
+          python ./publish.py -n ThisWoomyIsSalty theme
         env:
           praw_client_id: ${{ secrets.style_publisher_praw_client_id }}
           praw_client_secret: ${{ secrets.style_publisher_praw_client_secret }}
