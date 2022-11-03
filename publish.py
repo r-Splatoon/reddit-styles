@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# borrowed from https://github.com/marketplace/actions/publish-reddit-stylesheet
 import re
 from glob import glob
 import traceback
