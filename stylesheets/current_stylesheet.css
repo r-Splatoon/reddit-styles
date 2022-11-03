@@ -995,7 +995,8 @@ body .content .sitetable .link .title a:hover {
     vertical-align: middle;
     position: relative;
     top: -2px;
-    background: #738491,width: auto;
+    background: #738491;
+    width: auto;
 }
 
 .linkflair-mod .linkflairlabel {
@@ -4456,7 +4457,8 @@ body {
     display: block;
     position: absolute;
     margin-left: -16px;
-    top: -2788pxz-index: -1;
+    top: -2788px;
+    z-index: -1;
 }
 
 .submit-page #header .pagename {
