@@ -64,5 +64,5 @@ jobs:
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Deploy Reddit themes
         run: |
-          python publish.py -n ThisWoomyIsSalty theme
+          python publish.py -n Splatoon theme
         
