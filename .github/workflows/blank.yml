@@ -48,11 +48,11 @@ jobs:
             build
             !build/**/*.md
       # Take data from a previous step/job
-      # - name: Download theme data
-      #   uses: actions/download-artifact@v3
-      #   with:
-      #     name: themeartifact
-      #     path: theme
+      - name: Download theme data
+        uses: actions/download-artifact@v3
+        with:
+          name: themeartifact
+          path: theme
       # - name: Set up Python ${{ env.PYTHON_VERSION }}
       #   uses: actions/setup-python@v4
       #   with:
