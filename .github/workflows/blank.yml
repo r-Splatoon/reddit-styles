@@ -56,8 +56,6 @@ jobs:
         with:
           subreddit: ThisWoomyIsSalty
           path: theme
-          clear: false
-          cleanup: false
           skip images: true
         env:
           praw_client_id: ${{ secrets.style_publisher_praw_client_id }}
