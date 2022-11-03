@@ -16,6 +16,9 @@ on:
 env:
   PYTHON_VERSION: 3.8
   NODE_VERSION: 16.x
+  praw_client_id: ${{ secrets.style_publisher_praw_client_id }}
+  praw_client_secret: ${{ secrets.style_publisher_praw_client_secret }}
+  praw_refresh_token: ${{ secrets.style_publisher_praw_refresh_token }}
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -62,8 +65,4 @@ jobs:
       - name: Deploy Reddit themes
         runs: |
           python ./publish.py -n ThisWoomyIsSalty theme
-        env:
-          praw_client_id: ${{ secrets.style_publisher_praw_client_id }}
-          praw_client_secret: ${{ secrets.style_publisher_praw_client_secret }}
-          praw_refresh_token: ${{ secrets.style_publisher_praw_refresh_token }}
         
