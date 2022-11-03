@@ -65,7 +65,7 @@ jobs:
       - name: Test Reddit themes
         if: github.event_name == 'pull_request'
         run: |
-          python publish.py -n ThisWoomyIsSalty theme
+          python publish.py ThisWoomyIsSalty theme
       - name: Deploy Reddit themes
         if: github.event_name == 'push'
         run: |
