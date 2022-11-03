@@ -51,13 +51,16 @@ jobs:
           name: themeartifact
           path: theme
       # Deploy
-      - name: Deploy to the test subreddit
-        uses: redditnfl/publish-reddit-stylesheet-action@v1.0.0
-        with:
-          subreddit: ThisWoomyIsSalty
-          path: theme
-          skip images: true
+      - name: 'Publish reddit stylesheet'
+        description: 'Publish a reddit stylesheet to a subreddit'
+        runs:
+          using: 'docker'
+          image: 'Dockerfile'
+          args:
+            - ThisWoomyIsSalty
+            - theme
         env:
           praw_client_id: ${{ secrets.style_publisher_praw_client_id }}
           praw_client_secret: ${{ secrets.style_publisher_praw_client_secret }}
           praw_refresh_token: ${{ secrets.style_publisher_praw_refresh_token }}
+        
