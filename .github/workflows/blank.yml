@@ -53,10 +53,10 @@ jobs:
         with:
           name: themeartifact
           path: theme
-      # - name: Set up Python ${{ env.PYTHON_VERSION }}
-      #   uses: actions/setup-python@v4
-      #   with:
-      #     python-version: ${{ env.PYTHON_VERSION }}
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
       # # Deploy
       # - name: Install dependencies
       #   run: |
