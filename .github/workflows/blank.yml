@@ -63,11 +63,11 @@ jobs:
           python -m pip install --upgrade pip
           if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       - name: Test Reddit themes
-        if: github.event_name = 'pull_request'
+        if: github.event_name == 'pull_request'
         run: |
           python publish.py -n ThisWoomyIsSalty theme
       - name: Deploy Reddit themes
-        if: github.event_name = 'push'
+        if: github.event_name == 'push'
         run: |
           python publish.py -n Splatoon theme
         
