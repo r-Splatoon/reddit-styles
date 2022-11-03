@@ -1,0 +1,22 @@
+{
+  "name": "reddit-styles",
+  "version": "1.0.0",
+  "description": "r/Splatoon reddit stylesheets",
+  "main": "index.js",
+  "scripts": {
+    "build": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/r-Splatoon/reddit-styles.git"
+  },
+  "author": "r/Splatoon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/r-Splatoon/reddit-styles/issues"
+  },
+  "homepage": "https://github.com/r-Splatoon/reddit-styles#readme",
+  "dependencies": {
+    "clean-css": "^5.3.1"
+  }
+}
