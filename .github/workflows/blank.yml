@@ -57,11 +57,11 @@ jobs:
         uses: actions/setup-python@v4
         with:
           python-version: ${{ env.PYTHON_VERSION }}
-      # # Deploy
-      # - name: Install dependencies
-      #   run: |
-      #     python -m pip install --upgrade pip
-      #     if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      # Deploy
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
       # - name: Deploy Reddit themes
       #   runs: |
       #     python ./publish.py -n ThisWoomyIsSalty theme
