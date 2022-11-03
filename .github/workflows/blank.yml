@@ -48,21 +48,21 @@ jobs:
             build
             !build/**/*.md
       # Take data from a previous step/job
-      - name: Download theme data
-        uses: actions/download-artifact@v3
-        with:
-          name: themeartifact
-          path: theme
-      - name: Set up Python ${{ env.PYTHON_VERSION }}
-        uses: actions/setup-python@v4
-        with:
-          python-version: ${{ env.PYTHON_VERSION }}
-      # Deploy
-      - name: Install dependencies
-        run: |
-          python -m pip install --upgrade pip
-          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
-      - name: Deploy Reddit themes
-        runs: |
-          python ./publish.py -n ThisWoomyIsSalty theme
+      # - name: Download theme data
+      #   uses: actions/download-artifact@v3
+      #   with:
+      #     name: themeartifact
+      #     path: theme
+      # - name: Set up Python ${{ env.PYTHON_VERSION }}
+      #   uses: actions/setup-python@v4
+      #   with:
+      #     python-version: ${{ env.PYTHON_VERSION }}
+      # # Deploy
+      # - name: Install dependencies
+      #   run: |
+      #     python -m pip install --upgrade pip
+      #     if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      # - name: Deploy Reddit themes
+      #   runs: |
+      #     python ./publish.py -n ThisWoomyIsSalty theme
         
