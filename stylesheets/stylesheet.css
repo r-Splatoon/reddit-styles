@@ -4553,6 +4553,7 @@ body {
     background-repeat: no-repeat;
     vertical-align: bottom;
     margin-right: 3px;
+	background-image: url(%%legacy-userflairs%%);
 }
 
 .flair {
@@ -4594,10 +4595,11 @@ body {
     line-height: normal;
 }
 
-/*Legacy User Flairs: 101 - 399*/
+/*Legacy User Flairs: 101 - 399
 .flair:before {
 	background-image: url(%%legacy-userflairs%%);
 }
+*/
 
 .flair-101{background-position:0px 0px}
 .flair-102{background-position:-22px 0px}
