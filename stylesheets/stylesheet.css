@@ -4624,16 +4624,17 @@ body {
 .flair-123{background-position:0px -242px}
 .flair-124{background-position:-22px -242px}
 
-/*Weapon User Flairs: 401 - 699*/
+
+/*Weapon User Flairs: 401 - 699
 .flair:before {
 	background-image: url(%%weapon-userflairs%%);
 }
-
-/*Splatfest User Flairs: 701 - 999*/
+*/
+/*Splatfest User Flairs: 701 - 999
 .flair:before {
 	background-image: url(%%splatfest-userflairs%%);
 }
-
+*/
 
 /* Countdown CSS */
 a[href="#days"], a[href="#hours"], a[href="#minutes"], a[href="#seconds"] {
