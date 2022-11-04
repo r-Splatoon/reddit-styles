@@ -13,25 +13,28 @@ on:
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
+env:
+  PYTHON_VERSION: 3.8
+  NODE_VERSION: 16.x
+  praw_client_id: ${{ secrets.style_publisher_praw_client_id }}
+  praw_client_secret: ${{ secrets.style_publisher_praw_client_secret }}
+  praw_refresh_token: ${{ secrets.style_publisher_praw_refresh_token }}
+
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
-    
-    strategy:
-      matrix:
-        node-version: [16.x]
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
-      - name: Use Node.js ${{ matrix.node-version }}
+      - name: Use Node.js ${{ env.NODE_VERSION }}
         uses: actions/setup-node@v3
         with:
-          node-version: ${{ matrix.node-version }}
+          node-version: ${{ env.NODE_VERSION }}
       - run: |
           npm install
           npm audit fix
@@ -39,8 +42,32 @@ jobs:
       - name: Archive production artifacts
         uses: actions/upload-artifact@v3
         with:
-          name: final-styles
+          name: themeartifact
           retention-days: 3
           path: |
             build
             !build/**/*.md
+      # Take data from a previous step/job
+      - name: Download theme data
+        uses: actions/download-artifact@v3
+        with:
+          name: themeartifact
+          path: theme
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v4
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+      # Deploy
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+      - name: Test Reddit themes
+        if: github.event_name == 'pull_request'
+        run: |
+          python publish.py ThisWoomyIsSalty theme
+      - name: Deploy Reddit themes
+        if: github.event_name == 'push'
+        run: |
+          python publish.py -n Splatoon theme
+        

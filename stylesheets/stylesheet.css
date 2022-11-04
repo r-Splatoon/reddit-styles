@@ -13,7 +13,7 @@ body {
 a {
     color: #24a0ed;
     transition: color .15s ease;
-}
+} 
 
 ::-moz-selection {
     background: #0079d3;
@@ -1418,9 +1418,7 @@ div.commentarea div.RES-keyNav-activeElement .md {
 
 .RESCloseButton {
     line-height: 19px;
-    height: 22px;
-    width: 22px;
-    transition: all .15s ease;
+    transition:all .15s ease;
 }
 
 .RESCloseButton:hover {
@@ -4457,7 +4455,6 @@ body {
     display: block;
     position: absolute;
     margin-left: -16px;
-    top: -2788px;
     z-index: -1;
 }
 
@@ -4551,7 +4548,7 @@ body {
 .flair:before {
     content: "";
     height: 22px;
-    width: 23px;
+    width: 22px;
     display: inline-block;
     background-repeat: no-repeat;
     background-image: url(%%userflairs%%);
@@ -4561,7 +4558,7 @@ body {
 
 .flair {
     width: 22px;
-    height: 23px;
+    height: 22px;
     line-height: 12px;
     overflow: hidden;
     vertical-align: bottom;
@@ -4600,1591 +4597,1057 @@ body {
 
 .flair-000:before {
     background-position: 0px 0px;
-    height: 23px;
-    width: 22px;
 }
 
 .flair-001:before {
     background-position: -22px 0px;
-    height: 23px;
-    width: 22px;
 }
 
 .flair-002:before {
     background-position: 0px -23px;
-    height: 23px;
-    width: 22px;
 }
 
 .flair-003:before {
     background-position: -22px -22px;
-    height: 23px;
-    width: 22px;
 }
 
 .flair-004:before {
     background-position: 0px -45px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-005:before {
     background-position: -22px -44px;
-    height: 23px;
-    width: 22px;
 }
 
 .flair-006:before {
     background-position: 0px -67px;
-    height: 23px;
-    width: 22px;
 }
 
 .flair-007:before {
     background-position: -22px -67px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-008:before {
     background-position: 0px -89px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-009:before {
     background-position: -22px -89px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-00a:before {
     background-position: 0px -111px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-00b:before {
     background-position: -22px -111px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-00c:before {
     background-position: 0px -133px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-00d:before {
     background-position: -22px -133px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-00e:before {
     background-position: 0px -155px;
-    min-height: 22px;
-    width: 22px;
 }
 
 .flair-00f:before {
     background-position: -22px -155px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-010:before {
     background-position: 0px -177px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-011:before {
     background-position: -22px -177px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-012:before {
     background-position: 0px -199px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-013:before {
     background-position: -22px -199px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-014:before {
     background-position: 0px -221px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-015:before {
     background-position: -22px -221px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-016:before {
     background-position: 0px -243px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-017:before {
     background-position: -22px -243px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-018:before {
     background-position: 0px -265px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-019:before {
     background-position: -22px -265px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-01a:before {
     background-position: 0px -287px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-01b:before {
     background-position: -22px -287px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-01c:before {
     background-position: 0px -309px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-01d:before {
     background-position: -22px -309px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-01e:before {
     background-position: 0px -331px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-01f:before {
     background-position: -22px -331px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-020:before {
     background-position: 0px -353px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-021:before {
     background-position: -22px -353px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-022:before {
     background-position: 0px -375px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-023:before {
     background-position: -22px -375px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-024:before {
     background-position: 0px -397px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-025:before {
     background-position: -22px -397px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-026:before {
     background-position: 0px -419px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-027:before {
     background-position: -22px -419px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-028:before {
     background-position: 0px -441px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-029:before {
     background-position: -22px -441px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-02a:before {
     background-position: 0px -463px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-02b:before {
     background-position: -22px -463px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-02c:before {
     background-position: 0px -485px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-02d:before {
     background-position: -22px -485px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-02e:before {
     background-position: 0px -507px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-02f:before {
     background-position: -22px -507px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-030:before {
     background-position: 0px -529px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-031:before {
     background-position: -22px -529px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-032:before {
     background-position: 0px -551px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-033:before {
     background-position: -22px -551px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-034:before {
     background-position: 0 -573px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-035:before {
     background-position: -22px -573px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-036:before {
     background-position: 0 -595px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-037:before {
     background-position: -22px -595px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-038:before {
     background-position: 0 -617px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-039:before {
     background-position: -22px -617px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-03a:before {
     background-position: 0 -639px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-03b:before {
     background-position: -22px -639px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-03c:before {
     background-position: 0 -661px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-03d:before {
     background-position: -22px -661px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-03e:before {
     background-position: 0 -683px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-03f:before {
     background-position: -22px -683px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-040:before {
     background-position: 0 -705px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-041:before {
     background-position: -22px -705px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-042:before {
     background-position: 0 -727px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-043:before {
     background-position: -22px -727px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-044:before {
     background-position: 0 -749px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-045:before {
     background-position: -22px -749px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-046:before {
     background-position: 0 -771px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-047:before {
     background-position: -22px -771px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-048:before {
     background-position: 0 -793px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-049:before {
     background-position: -22px -793px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-04a:before {
     background-position: 0 -815px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-04b:before {
     background-position: -22px -815px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-04c:before {
     background-position: 0 -837px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-04d:before {
     background-position: -22px -837px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-04e:before {
     background-position: 0 -861px;
-    height: 20px;
-    width: 22px;
 }
 
 .flair-04f:before {
     background-position: -22px -861px;
-    height: 20px;
-    width: 22px;
 }
 
 .flair-050:before {
     background-position: 0 -881px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-051:before {
     background-position: -22px -881px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-052:before {
     background-position: 0 -903px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-053:before {
     background-position: -22px -903px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-054:before {
     background-position: 0 -925px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-055:before {
     background-position: -22px -925px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-056:before {
     background-position: 0 -947px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-057:before {
     background-position: -22px -947px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-058:before {
     background-position: 0 -969px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-059:before {
     background-position: -22px -969px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-05a:before {
     background-position: 0 -991px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-05b:before {
     background-position: -22px -991px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-05c:before {
     background-position: 0 -1013px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-05d:before {
     background-position: 0 -1035px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-05e:before {
     background-position: -22px -1035px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-05f:before {
     background-position: 0 -1057px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-060:before {
     background-position: -22px -1057px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-061:before {
     background-position: 0 -1079px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-062:before {
     background-position: -22px -1079px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-063:before {
     background-position: 0 -1101px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-064:before {
     background-position: -22px -1101px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-065:before {
     background-position: 0 -1123px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-066:before {
     background-position: -22px -1123px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-067:before {
     background-position: 0 -1145px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-068:before {
     background-position: -22px -1145px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-069:before {
     background-position: 0 -1167px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-06a:before {
     background-position: -22px -1167px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-06b:before {
     background-position: 0 -1189px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-06c:before {
     background-position: -22px -1189px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-06d:before {
     background-position: 0 -1211px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-06e:before {
     background-position: -22px -1211px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-06f:before {
     background-position: 0 -1233px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-070:before {
     background-position: -22px -1233px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-071:before {
     background-position: 0 -1255px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-072:before {
     background-position: -22px -1255px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-073:before {
     background-position: 0 -1277px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-074:before {
     background-position: -22px -1277px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-075:before {
     background-position: 0 -1299px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-076:before {
     background-position: -22px -1299px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-077:before {
     background-position: 0 -1321px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-078:before {
     background-position: -22px -1321px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-079:before {
     background-position: 0 -1343px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-07a:before {
     background-position: -22px -1343px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-07b:before {
     background-position: 0 -1365px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-07c:before {
     background-position: -22px -1365px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-07d:before {
     background-position: 0 -1387px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-07e:before {
     background-position: -22px -1387px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-07f:before {
     background-position: 0 -1409px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-080:before {
     background-position: -22px -1409px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-081:before {
     background-position: 0 -1431px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-082:before {
     background-position: -22px -1431px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-083:before {
     background-position: 0 -1453px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-084:before {
     background-position: -22px -1453px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-085:before {
     background-position: 0 -1475px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-086:before {
     background-position: -22px -1475px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-087:before {
     background-position: 0 -1497px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-088:before {
     background-position: -22px -1497px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-089:before {
     background-position: 0 -1519px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-08a:before {
     background-position: -22px -1519px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-08b:before {
     background-position: 0 -1541px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-08c:before {
     background-position: -22px -1541px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-08d:before {
     background-position: 0 -1563px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-08e:before {
     background-position: -22px -1563px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-08f:before {
     background-position: 0 -1585px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-090:before {
     background-position: -22px -1585px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-091:before {
     background-position: 0 -1607px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-092:before {
     background-position: -22px -1607px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-093:before {
     background-position: 0 -1629px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-094:before {
     background-position: -22px -1629px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-095:before {
     background-position: 0 -1651px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-096:before {
     background-position: -22px -1651px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-097:before {
     background-position: 0 -1673px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-098:before {
     background-position: -22px -1673px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-099:before {
     background-position: 0 -1695px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-09a:before {
     background-position: -22px -1695px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-09b:before {
     background-position: 0 -1717px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-09c:before {
     background-position: -22px -1717px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-09d:before {
     background-position: 0 -1739px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-09e:before {
     background-position: -22px -1739px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-09f:before {
     background-position: 0 -1761px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0a0:before {
     background-position: -22px -1761px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0a1:before {
     background-position: 0 -1783px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0a2:before {
     background-position: -22px -1783px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0a3:before {
     background-position: 0 -1805px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0a4:before {
     background-position: -22px -1805px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0a5:before {
     background-position: 0 -1827px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0a6:before {
     background-position: -22px -1827px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0a7:before {
     background-position: 0 -1849px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0a8:before {
     background-position: -22px -1849px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0a9:before {
     background-position: 0 -1871px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0aa:before {
     background-position: -22px -1871px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0ab:before {
     background-position: 0 -1893px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0ac:before {
     background-position: -22px -1893px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0ad:before {
     background-position: 0 -1915px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0ae:before {
     background-position: -22px -1915px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0af:before {
     background-position: 0 -1937px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0b0:before {
     background-position: -22px -1937px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0b1:before {
     background-position: 0 -1959px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0b2:before {
     background-position: -22px -1959px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0b3:before {
     background-position: 0 -1981px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0b4:before {
     background-position: -22px -1981px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0b5:before {
     background-position: 0 -2003px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0b6:before {
     background-position: -22px -2003px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0b7:before {
     background-position: 0 -2025px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0b8:before {
     background-position: -22px -2025px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0b9:before {
     background-position: 0 -2047px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0ba:before {
     background-position: -22px -2047px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0bb:before {
     background-position: 0 -2069px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0bc:before {
     background-position: -22px -2069px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0bd:before {
     background-position: 0 -2091px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0be:before {
     background-position: -22px -2091px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0bf:before {
     background-position: 0 -2113px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0c0:before {
     background-position: -22px -2113px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0c1:before {
     background-position: 0 -2135px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0c2:before {
     background-position: -22px -2135px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0c3:before {
     background-position: 0 -2157px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0c4:before {
     background-position: -22px -2157px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0c5:before {
     background-position: 0 -2179px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0c6:before {
     background-position: -22px -2179px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0c7:before {
     background-position: 0 -2201px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0c8:before {
     background-position: -22px -2201px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0c9:before {
     background-position: 0 -2223px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0ca:before {
     background-position: -22px -2223px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0cb:before {
     background-position: 0 -2245px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0cc:before {
     background-position: -22px -2245px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0cd:before {
     background-position: 0 -2267px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0ce:before {
     background-position: -22px -2267px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0cf:before {
     background-position: 0 -2289px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0d0:before {
     background-position: -22px -2289px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0d1:before {
     background-position: 0 -2311px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0d2:before {
     background-position: -22px -2311px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0d3:before {
     background-position: 0 -2333px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0d4:before {
     background-position: -22px -2333px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0d5:before {
     background-position: 0 -2355px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0d6:before {
     background-position: -22px -2355px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0d7:before {
     background-position: 0 -2377px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0d8:before {
     background-position: -22px -2377px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0d9:before {
     background-position: 0 -2399px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0da:before {
     background-position: -22px -2399px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0db:before {
     background-position: 0 -2421px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0dc:before {
     background-position: -22px -2421px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0dd:before {
     background-position: 0 -2443px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0de:before {
     background-position: -22px -2443px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0df:before {
     background-position: 0 -2465px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0e0:before {
     background-position: -22px -2465px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0e1:before {
     background-position: 0 -2487px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0e2:before {
     background-position: -22px -2487px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0e3:before {
     background-position: 0 -2509px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0e4:before {
     background-position: -22px -2509px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0e5:before {
     background-position: 0 -2531px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0e6:before {
     background-position: -22px -2531px;
-    height: 22px;
-    width: 22px;
 }
 /*added as of April 4 2018*/.flair-0e7:before {
     background-position: 0 -2553px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0e8:before {
     background-position: -22px -2553px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0e9:before {
     background-position: 0 -2575px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0ea:before {
     background-position: -22px -2575px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0eb:before {
     background-position: 0 -2597px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0ec:before {
     background-position: -22px -2597px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0ed:before {
     background-position: 0 -2619px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0ee:before {
     background-position: -22px -2619px;
-    height: 22px;
-    width: 22px;
 }
 /*added as of May 5 2018*/.flair-0ef:before {
     background-position: 0 -2641px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0f0:before {
     background-position: -22px -2641px;
-    height: 22px;
-    width: 22px;
 }
 /*added as of May 11 2018*/.flair-0f1:before {
     background-position: 0 -2663px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0f2:before {
     background-position: -22px -2663px;
-    height: 22px;
-    width: 22px;
 }
 /*June 22 2018*/.flair-0f3:before {
     background-position: 0 -2685px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0f4:before {
     background-position: -22px -2685px;
-    height: 22px;
-    width: 22px;
 }
 /*July 20 2018*/.flair-0f5:before {
     background-position: 0 -2707px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0f6:before {
     background-position: -22px -2707px;
-    height: 22px;
-    width: 22px;
 }
 /*July 22 2018*/.flair-0f7:before {
     background-position: 0 -2729px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0f8:before {
     background-position: -22px -2729px;
-    height: 22px;
-    width: 22px;
 }
 /*August 24 2018*/.flair-0f9:before {
     background-position: 0 -2751px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0fa:before {
     background-position: -22px -2751px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0fb:before {
     background-position: 0 -2773px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0fc:before {
     background-position: -22px -2773px;
-    height: 22px;
-    width: 22px;
 }
 /*September 21 2018*/.flair-0fd:before {
     background-position: 0 -2795px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0fe:before {
     background-position: -22px -2795px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-0ff:before {
     background-position: 0 -2817px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-100:before {
     background-position: -22px -2817px;
-    height: 22px;
-    width: 22px;
 }
 /*Oct 19 2018*/.flair-101:before {
     background-position: 0 -2839px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-102:before {
     background-position: -22px -2839px;
-    height: 22px;
-    width: 22px;
 }
 /*Nov 16 2018*/.flair-103:before {
     background-position: 0 -2861px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-104:before {
     background-position: -22px -2861px;
-    height: 22px;
-    width: 22px;
 }
 /*Dec 14 2018*/.flair-105:before {
     background-position: 0 -2883px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-106:before {
     background-position: -22px -2883px;
-    height: 22px;
-    width: 22px;
 }
 /*Jan 4 2018*/.flair-107:before {
     background-position: 0 -2905px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-108:before {
     background-position: -22px -2905px;
-    height: 22px;
-    width: 22px;
 }
 /*Feb 5 2018*/.flair-109:before {
     background-position: 0 -2927px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-10a:before {
     background-position: -22px -2927px;
-    height: 22px;
-    width: 22px;
 }
 /*Special NTC flair*/.flair-10b:before {
     background-image: url(%%ntcFlair%%);
@@ -6205,113 +5668,73 @@ body {
 }
 /*EXTREMELY LATE SPRING FEST*/.flair-10d:before {
     background-position: -22px -2949px;
-    height: 22px;
-    width: 22px;
 }
 /*SPLATFEST*/.flair-10e:before {
     background-position: 0 -2971px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-10f:before {
     background-position: -22px -2971px;
-    height: 22px;
-    width: 22px;
 }
 /*Chicken Vs Egg rematch*/.flair-110:before {
     background-position: 0px -2993px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-111:before {
     background-position: -22px -2993px;
-    height: 22px;
-    width: 22px;
 }
 /*Mushroom Vs Star*/.flair-112:before {
     background-position: 0px -3015px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-113:before {
     background-position: -22px -3015px;
-    height: 22px;
-    width: 22px;
 }
 /*Little Buddy + Squid Research Participant*/.flair-114:before {
     background-position: 0px -3037px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-115:before {
     background-position: -22px -3037px;
-    height: 22px;
-    width: 22px;
 }
 /*Discord Vs Reddit Customfest 9th July 2021*/.flair-116:before {
     background-position: 0px -3059px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-117:before {
     background-position: -22px -3059px;
-    height: 22px;
-    width: 22px;
 }
 /*UwU Vs OwO Customfest 2nd Oct 2021*/.flair-118:before {
     background-position: 0px -3081px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-119:before {
     background-position: -22px -3081px;
-    height: 22px;
-    width: 22px;
 }
 /*Choco-Strawberry Milk Customfest 17th Mar 2022*/.flair-11A:before {
     background-position: 0px -3103px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-11B:before {
     background-position: -22px -3103px;
-    height: 22px;
-    width: 22px;
 }
 /*Idol Customfest 10th-7-22*/.flair-11C:before {
     background-position: 0px -3125px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-11D:before {
     background-position: -22px -3125px;
-    height: 22px;
-    width: 22px;
 }
 /*GearGrubFun 18th-9-22*/.flair-11E:before {
     background-position: 0px -3147px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-11F:before {
     background-position: -22px -3147px;
-    height: 22px;
-    width: 22px;
 }
 
 .flair-120:before {
     background-position: 0px -3169px;
-    height: 22px;
-    width: 22px;
 }
 
 /* Countdown CSS */

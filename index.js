@@ -1,7 +1,8 @@
 const CleanCSS = require('clean-css');
-const { readFileSync, writeFileSync, readdirSync } = require('fs');
+const { readFileSync, writeFileSync, readdirSync, copyFileSync } = require('fs');
 
-const files = readdirSync("./stylesheets");
+const stylesheets = readdirSync("./stylesheets");
+const images = readdirSync("./images");
 
 const cleanCss = new CleanCSS({
     level: {
@@ -15,7 +16,7 @@ const cleanCss = new CleanCSS({
     }
   });
 
-for (let file of files) {
+for (let file of stylesheets) {
     console.log(`Cleaning file "${file}"`);
     let newContent = cleanCss.minify(readFileSync(`./stylesheets/${file}`));
 
@@ -30,3 +31,11 @@ for (let file of files) {
 
     console.log("");
 }
+
+for (let file of images) {
+    console.log(`Copying ${file}`);
+    copyFileSync(`./images/${file}`, `./build/${file}`);
+}
+
+console.log("");
+console.log("Complete!");
