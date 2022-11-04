@@ -4553,7 +4553,6 @@ body {
     background-repeat: no-repeat;
     vertical-align: bottom;
     margin-right: 3px;
-	background-image: url(%%legacy-userflairs%%);
 }
 
 .flair {
@@ -4595,36 +4594,36 @@ body {
     line-height: normal;
 }
 
-/*Legacy User Flairs: 101 - 399
+/*Legacy User Flairs: 101 - 399*/
 .flair:before {
 	background-image: url(%%legacy-userflairs%%);
 }
-*/
 
-.flair-101{background-position:0px 0px}
-.flair-102{background-position:-22px 0px}
-.flair-103{background-position:0px -22px}
-.flair-104{background-position:-22px -22px}
-.flair-105{background-position:0px -44px}
-.flair-106{background-position:-22px -44px}
-.flair-107{background-position:0px -66px}
-.flair-108{background-position:-22px -66px}
-.flair-109{background-position:0px -88px}
-.flair-110{background-position:-22px -88px}
-.flair-111{background-position:0px -110px}
-.flair-112{background-position:-22px -110px}
-.flair-113{background-position:0px -132px}
-.flair-114{background-position:-22px -132px}
-.flair-115{background-position:0px -154px}
-.flair-116{background-position:-22px -154px}
-.flair-117{background-position:0px -176px}
-.flair-118{background-position:-22px -176px}
-.flair-119{background-position:0px -198px}
-.flair-120{background-position:-22px -198px}
-.flair-121{background-position:0px -220px}
-.flair-122{background-position:-22px -220px}
-.flair-123{background-position:0px -242px}
-.flair-124{background-position:-22px -242px}
+
+.flair-101:before{background-position:0px 0px}
+.flair-102:before{background-position:-22px 0px}
+.flair-103:before{background-position:0px -22px}
+.flair-104:before{background-position:-22px -22px}
+.flair-105:before{background-position:0px -44px}
+.flair-106:before{background-position:-22px -44px}
+.flair-107:before{background-position:0px -66px}
+.flair-108:before{background-position:-22px -66px}
+.flair-109:before{background-position:0px -88px}
+.flair-110:before{background-position:-22px -88px}
+.flair-111:before{background-position:0px -110px}
+.flair-112:before{background-position:-22px -110px}
+.flair-113:before{background-position:0px -132px}
+.flair-114:before{background-position:-22px -132px}
+.flair-115:before{background-position:0px -154px}
+.flair-116:before{background-position:-22px -154px}
+.flair-117:before{background-position:0px -176px}
+.flair-118:before{background-position:-22px -176px}
+.flair-119:before{background-position:0px -198px}
+.flair-120:before{background-position:-22px -198px}
+.flair-121:before{background-position:0px -220px}
+.flair-122:before{background-position:-22px -220px}
+.flair-123:before{background-position:0px -242px}
+.flair-124:before{background-position:-22px -242px}
 
 
 /*Weapon User Flairs: 401 - 699
