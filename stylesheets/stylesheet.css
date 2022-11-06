@@ -4825,11 +4825,11 @@ a[href="#days"], a[href="#hours"], a[href="#minutes"], a[href="#seconds"] {
 }
 
 div.titlebox span.number:after {
-    content: " Inklings staying fresh.";
+    content: " Deep Cut enjoyers";
 }
 
 .titlebox .users-online .number:after {
-    content: " Inklings splatting.";
+    content: " Queued up for battle";
 }
 /* Flair selector size */
 .flairoptionpane {
