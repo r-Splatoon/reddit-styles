@@ -4723,12 +4723,12 @@ body {
 .flair-a-222:before{background-position:-22px -1320px}
 .flair-a-223:before{background-position:0px -1342px}
 .flair-a-224:before{background-position:-22px -1342px}
-.flair-a-225:before{background-position:0px -1342px}
-.flair-a-226:before{background-position:-22px -1342px}
-.flair-a-227:before{background-position:0px -1364px}
-.flair-a-228:before{background-position:-22px -1364px}
-.flair-a-229:before{background-position:0px -1386px}
-.flair-a-230:before{background-position:-22px -1386px}
+.flair-a-225:before{background-position:0px -1364px}
+.flair-a-226:before{background-position:-22px -1364px}
+.flair-a-227:before{background-position:0px -1386px}
+.flair-a-228:before{background-position:-22px -1386px}
+.flair-a-229:before{background-position:0px -1408px}
+.flair-a-230:before{background-position:-22px -1408px}
 
 /*Weapon User Flairs: b-401 - b-699*/
 .flair[class*="flair-b"]:before {
@@ -4804,7 +4804,7 @@ body {
 .flair-c-706:before{background-position:-44px -22px}
 .flair-c-707:before{background-position:0px -44px}
 .flair-c-708:before{background-position:-22px -44px}
-.flair-c-709:before{background-position:-24px -44px}
+.flair-c-709:before{background-position:-44px -44px}
 
 /* Countdown CSS */
 a[href="#days"], a[href="#hours"], a[href="#minutes"], a[href="#seconds"] {
