@@ -4977,55 +4977,55 @@ div.titlebox span.number:after {
     }
 }
 
-.thing[data-fullname$="a"],.thing[data-fullname$="n"],.thing[data-fullname$="0"]  > .midcol > .upmod:focus::after {
+.thing[data-fullname$="a"] > .midcol > .upmod:focus::after,.thing[data-fullname$="n"] > .midcol > .upmod:focus::after,.thing[data-fullname$="0"] > .midcol > .upmod:focus::after {
     content: "Booyah!";
 }
 
-.thing[data-fullname$="b"],.thing[data-fullname$="o"],.thing[data-fullname$="1"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="b"] > .midcol > .upmod:focus::after,.thing[data-fullname$="o"] > .midcol > .upmod:focus::after,.thing[data-fullname$="1"] > .midcol > .upmod:focus::after {
     content: "Ngyes!";
 }
 
-.thing[data-fullname$="c"],.thing[data-fullname$="p"],.thing[data-fullname$="2"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="c"] > .midcol > .upmod:focus::after,.thing[data-fullname$="p"] > .midcol > .upmod:focus::after,.thing[data-fullname$="2"] > .midcol > .upmod:focus::after {
     content: "Woomy!";
 }
 
-.thing[data-fullname$="d"],.thing[data-fullname$="q"],.thing[data-fullname$="3"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="d"] > .midcol > .upmod:focus::after,.thing[data-fullname$="q"] > .midcol > .upmod:focus::after,.thing[data-fullname$="3"] > .midcol > .upmod:focus::after {
     content: "You're a kid now";
 }
 
-.thing[data-fullname$="e"],.thing[data-fullname$="r"],.thing[data-fullname$="4"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="e"] > .midcol > .upmod:focus::after,.thing[data-fullname$="r"] > .midcol > .upmod:focus::after,.thing[data-fullname$="4"] > .midcol > .upmod:focus::after {
     content: "You're a squid now";
 }
 
-.thing[data-fullname$="f"],.thing[data-fullname$="s"],.thing[data-fullname$="5"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="f"] > .midcol > .upmod:focus::after,.thing[data-fullname$="s"] > .midcol > .upmod:focus::after,.thing[data-fullname$="5"] > .midcol > .upmod:focus::after {
     content: "Stay Fresh!";
 }
 
-.thing[data-fullname$="g"],.thing[data-fullname$="t"],.thing[data-fullname$="6"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="g"] > .midcol > .upmod:focus::after,.thing[data-fullname$="t"] > .midcol > .upmod:focus::after,.thing[data-fullname$="6"] > .midcol > .upmod:focus::after {
     content: "Stay off the Hook!";
 }
 
-.thing[data-fullname$="h"],.thing[data-fullname$="u"],.thing[data-fullname$="7"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="h"] > .midcol > .upmod:focus::after,.thing[data-fullname$="u"] > .midcol > .upmod:focus::after,.thing[data-fullname$="7"] > .midcol > .upmod:focus::after {
     content: "Veemo!";
 }
 
-.thing[data-fullname$="i"],.thing[data-fullname$="v"],.thing[data-fullname$="8"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="i"] > .midcol > .upmod:focus::after,.thing[data-fullname$="v"] > .midcol > .upmod:focus::after,.thing[data-fullname$="8"] > .midcol > .upmod:focus::after {
     content: "Weyo!";
 }
 
-.thing[data-fullname$="j"],.thing[data-fullname$="w"],.thing[data-fullname$="9"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="j"] > .midcol > .upmod:focus::after,.thing[data-fullname$="w"] > .midcol > .upmod:focus::after,.thing[data-fullname$="9"] > .midcol > .upmod:focus::after {
     content: "Ay!";
 }
 
-.thing[data-fullname$="k"],.thing[data-fullname$="x"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="k"] > .midcol > .upmod:focus::after,.thing[data-fullname$="x"] > .midcol > .upmod:focus::after {
     content: "This Way!";
 }
 
-.thing[data-fullname$="l"],.thing[data-fullname$="y"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="l"] > .midcol > .upmod:focus::after,.thing[data-fullname$="y"] > .midcol > .upmod:focus::after {
     content: "Catch ya later!";
 }
 
-.thing[data-fullname$="m"],.thing[data-fullname$="z"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="m"] > .midcol > .upmod:focus::after,.thing[data-fullname$="z"] > .midcol > .upmod:focus::after {
     content: "For eel!?";
 }
 
