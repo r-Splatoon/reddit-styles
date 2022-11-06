@@ -4977,48 +4977,56 @@ div.titlebox span.number:after {
     }
 }
 
-.thing[data-fullname$="a"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="a", "n", "0"] > .midcol > .upmod:focus::after {
     content: "Booyah!";
 }
 
-.thing[data-fullname$="c"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="b", "o", "1"] > .midcol > .upmod:focus::after {
     content: "Ngyes!";
 }
 
-.thing[data-fullname$="d"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="c", "p", "2"] > .midcol > .upmod:focus::after {
     content: "Woomy!";
 }
 
-.thing[data-fullname$="e"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="d", "q", "3"] > .midcol > .upmod:focus::after {
     content: "You're a kid now";
 }
 
-.thing[data-fullname$="f"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="e", "r", "4"] > .midcol > .upmod:focus::after {
     content: "You're a squid now";
 }
 
-.thing[data-fullname$="g"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="f", "s", "5"] > .midcol > .upmod:focus::after {
     content: "Stay Fresh!";
 }
 
-.thing[data-fullname$="h"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="g", "t", "6"] > .midcol > .upmod:focus::after {
     content: "Stay off the Hook!";
 }
 
-.thing[data-fullname$="i"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="h", "u", "7"] > .midcol > .upmod:focus::after {
     content: "Veemo!";
 }
 
-.thing[data-fullname$="j"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="i", "v", "8"] > .midcol > .upmod:focus::after {
     content: "Weyo!";
 }
 
-.thing[data-fullname$="k"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="j", "w", "9"] > .midcol > .upmod:focus::after {
     content: "Ay!";
 }
 
-.thing[data-fullname$="l"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="k", "x"] > .midcol > .upmod:focus::after {
     content: "This Way!";
+}
+
+.thing[data-fullname$="l", "y"] > .midcol > .upmod:focus::after {
+    content: "Catch ya later!";
+}
+
+.thing[data-fullname$="m", "z"] > .midcol > .upmod:focus::after {
+    content: "For eel!?";
 }
 
 .thing .upmod:focus:after {
