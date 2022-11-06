@@ -4595,7 +4595,7 @@ body {
 }
 
 /*Legacy User Flairs: a-101 - a-399*/
-.flair:before[class*="flair-a"] {
+.flair[class*="flair-a"]:before {
 	background-image: url(%%legacy-userflairs%%);
 }
 
@@ -4731,7 +4731,7 @@ body {
 .flair-a-230:before{background-position:-22px -1386px}
 
 /*Weapon User Flairs: b-401 - b-699*/
-.flair:before[class*="flair-b"] {
+.flair[class*="flair-b"]:before {
 	background-image: url(%%weapon-userflairs%%);
 }
 
@@ -4792,7 +4792,7 @@ body {
 .flair-b-455:before{background-position:0px -594px}
 
 /*Splatfest User Flairs: 701 - 999*/
-.flair:before[class*="flair-c"] {
+.flair[class*="flair-c"]:before {
 	background-image: url(%%splatfest-userflairs%%);
 }
 
