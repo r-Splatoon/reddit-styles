@@ -5001,6 +5001,26 @@ div.titlebox span.number:after {
     content: "Stay Fresh!";
 }
 
+.thing[data-fullname$="h"] > .midcol > .upmod:focus::after {
+    content: "Stay off the Hook!";
+}
+
+.thing[data-fullname$="i"] > .midcol > .upmod:focus::after {
+    content: "Veemo!";
+}
+
+.thing[data-fullname$="j"] > .midcol > .upmod:focus::after {
+    content: "Weyo!";
+}
+
+.thing[data-fullname$="k"] > .midcol > .upmod:focus::after {
+    content: "Ay!";
+}
+
+.thing[data-fullname$="l"] > .midcol > .upmod:focus::after {
+    content: "This Way!";
+}
+
 .thing .upmod:focus:after {
     white-space: nowrap;
 }
