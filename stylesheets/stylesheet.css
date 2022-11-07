@@ -4231,7 +4231,7 @@ body>.content {
 }
 
 .side {
-    margin-top: 195px;
+    margin-top: 145px;
 }
 
 .side:before {
@@ -4544,14 +4544,13 @@ body {
     background-image: url(%%bot%%);
 }
 
-/* User Flair */
+/*User Flairs*/
 .flair:before {
     content: "";
     height: 22px;
     width: 22px;
     display: inline-block;
     background-repeat: no-repeat;
-    background-image: url(%%userflairs%%);
     vertical-align: bottom;
     margin-right: 3px;
 }
@@ -4595,1147 +4594,217 @@ body {
     line-height: normal;
 }
 
-.flair-000:before {
-    background-position: 0px 0px;
-}
-
-.flair-001:before {
-    background-position: -22px 0px;
-}
-
-.flair-002:before {
-    background-position: 0px -23px;
-}
-
-.flair-003:before {
-    background-position: -22px -22px;
-}
-
-.flair-004:before {
-    background-position: 0px -45px;
-}
-
-.flair-005:before {
-    background-position: -22px -44px;
-}
-
-.flair-006:before {
-    background-position: 0px -67px;
-}
-
-.flair-007:before {
-    background-position: -22px -67px;
-}
-
-.flair-008:before {
-    background-position: 0px -89px;
-}
-
-.flair-009:before {
-    background-position: -22px -89px;
-}
-
-.flair-00a:before {
-    background-position: 0px -111px;
-}
-
-.flair-00b:before {
-    background-position: -22px -111px;
-}
-
-.flair-00c:before {
-    background-position: 0px -133px;
-}
-
-.flair-00d:before {
-    background-position: -22px -133px;
-}
-
-.flair-00e:before {
-    background-position: 0px -155px;
-}
-
-.flair-00f:before {
-    background-position: -22px -155px;
-}
-
-.flair-010:before {
-    background-position: 0px -177px;
-}
-
-.flair-011:before {
-    background-position: -22px -177px;
-}
-
-.flair-012:before {
-    background-position: 0px -199px;
-}
-
-.flair-013:before {
-    background-position: -22px -199px;
-}
-
-.flair-014:before {
-    background-position: 0px -221px;
-}
-
-.flair-015:before {
-    background-position: -22px -221px;
-}
-
-.flair-016:before {
-    background-position: 0px -243px;
-}
-
-.flair-017:before {
-    background-position: -22px -243px;
-}
-
-.flair-018:before {
-    background-position: 0px -265px;
-}
-
-.flair-019:before {
-    background-position: -22px -265px;
-}
-
-.flair-01a:before {
-    background-position: 0px -287px;
-}
-
-.flair-01b:before {
-    background-position: -22px -287px;
-}
-
-.flair-01c:before {
-    background-position: 0px -309px;
-}
-
-.flair-01d:before {
-    background-position: -22px -309px;
-}
-
-.flair-01e:before {
-    background-position: 0px -331px;
-}
-
-.flair-01f:before {
-    background-position: -22px -331px;
-}
-
-.flair-020:before {
-    background-position: 0px -353px;
-}
-
-.flair-021:before {
-    background-position: -22px -353px;
-}
-
-.flair-022:before {
-    background-position: 0px -375px;
-}
-
-.flair-023:before {
-    background-position: -22px -375px;
-}
-
-.flair-024:before {
-    background-position: 0px -397px;
-}
-
-.flair-025:before {
-    background-position: -22px -397px;
-}
-
-.flair-026:before {
-    background-position: 0px -419px;
-}
-
-.flair-027:before {
-    background-position: -22px -419px;
-}
-
-.flair-028:before {
-    background-position: 0px -441px;
-}
-
-.flair-029:before {
-    background-position: -22px -441px;
-}
-
-.flair-02a:before {
-    background-position: 0px -463px;
-}
-
-.flair-02b:before {
-    background-position: -22px -463px;
-}
-
-.flair-02c:before {
-    background-position: 0px -485px;
-}
-
-.flair-02d:before {
-    background-position: -22px -485px;
-}
-
-.flair-02e:before {
-    background-position: 0px -507px;
-}
-
-.flair-02f:before {
-    background-position: -22px -507px;
-}
-
-.flair-030:before {
-    background-position: 0px -529px;
-}
-
-.flair-031:before {
-    background-position: -22px -529px;
-}
-
-.flair-032:before {
-    background-position: 0px -551px;
-}
-
-.flair-033:before {
-    background-position: -22px -551px;
-}
-
-.flair-034:before {
-    background-position: 0 -573px;
-}
-
-.flair-035:before {
-    background-position: -22px -573px;
-}
-
-.flair-036:before {
-    background-position: 0 -595px;
-}
-
-.flair-037:before {
-    background-position: -22px -595px;
-}
-
-.flair-038:before {
-    background-position: 0 -617px;
-}
-
-.flair-039:before {
-    background-position: -22px -617px;
-}
-
-.flair-03a:before {
-    background-position: 0 -639px;
-}
-
-.flair-03b:before {
-    background-position: -22px -639px;
-}
-
-.flair-03c:before {
-    background-position: 0 -661px;
-}
-
-.flair-03d:before {
-    background-position: -22px -661px;
-}
-
-.flair-03e:before {
-    background-position: 0 -683px;
-}
-
-.flair-03f:before {
-    background-position: -22px -683px;
-}
-
-.flair-040:before {
-    background-position: 0 -705px;
-}
-
-.flair-041:before {
-    background-position: -22px -705px;
-}
-
-.flair-042:before {
-    background-position: 0 -727px;
-}
-
-.flair-043:before {
-    background-position: -22px -727px;
-}
-
-.flair-044:before {
-    background-position: 0 -749px;
-}
-
-.flair-045:before {
-    background-position: -22px -749px;
-}
-
-.flair-046:before {
-    background-position: 0 -771px;
-}
-
-.flair-047:before {
-    background-position: -22px -771px;
-}
-
-.flair-048:before {
-    background-position: 0 -793px;
-}
-
-.flair-049:before {
-    background-position: -22px -793px;
-}
-
-.flair-04a:before {
-    background-position: 0 -815px;
-}
-
-.flair-04b:before {
-    background-position: -22px -815px;
-}
-
-.flair-04c:before {
-    background-position: 0 -837px;
-}
-
-.flair-04d:before {
-    background-position: -22px -837px;
-}
-
-.flair-04e:before {
-    background-position: 0 -861px;
-}
-
-.flair-04f:before {
-    background-position: -22px -861px;
-}
-
-.flair-050:before {
-    background-position: 0 -881px;
-}
-
-.flair-051:before {
-    background-position: -22px -881px;
-}
-
-.flair-052:before {
-    background-position: 0 -903px;
-}
-
-.flair-053:before {
-    background-position: -22px -903px;
-}
-
-.flair-054:before {
-    background-position: 0 -925px;
-}
-
-.flair-055:before {
-    background-position: -22px -925px;
-}
-
-.flair-056:before {
-    background-position: 0 -947px;
-}
-
-.flair-057:before {
-    background-position: -22px -947px;
-}
-
-.flair-058:before {
-    background-position: 0 -969px;
-}
-
-.flair-059:before {
-    background-position: -22px -969px;
-}
-
-.flair-05a:before {
-    background-position: 0 -991px;
-}
-
-.flair-05b:before {
-    background-position: -22px -991px;
-}
-
-.flair-05c:before {
-    background-position: 0 -1013px;
-}
-
-.flair-05d:before {
-    background-position: 0 -1035px;
-}
-
-.flair-05e:before {
-    background-position: -22px -1035px;
-}
-
-.flair-05f:before {
-    background-position: 0 -1057px;
-}
-
-.flair-060:before {
-    background-position: -22px -1057px;
-}
-
-.flair-061:before {
-    background-position: 0 -1079px;
-}
-
-.flair-062:before {
-    background-position: -22px -1079px;
-}
-
-.flair-063:before {
-    background-position: 0 -1101px;
-}
-
-.flair-064:before {
-    background-position: -22px -1101px;
-}
-
-.flair-065:before {
-    background-position: 0 -1123px;
-}
-
-.flair-066:before {
-    background-position: -22px -1123px;
-}
-
-.flair-067:before {
-    background-position: 0 -1145px;
-}
-
-.flair-068:before {
-    background-position: -22px -1145px;
-}
-
-.flair-069:before {
-    background-position: 0 -1167px;
-}
-
-.flair-06a:before {
-    background-position: -22px -1167px;
-}
-
-.flair-06b:before {
-    background-position: 0 -1189px;
-}
-
-.flair-06c:before {
-    background-position: -22px -1189px;
-}
-
-.flair-06d:before {
-    background-position: 0 -1211px;
-}
-
-.flair-06e:before {
-    background-position: -22px -1211px;
-}
-
-.flair-06f:before {
-    background-position: 0 -1233px;
-}
-
-.flair-070:before {
-    background-position: -22px -1233px;
-}
-
-.flair-071:before {
-    background-position: 0 -1255px;
-}
-
-.flair-072:before {
-    background-position: -22px -1255px;
-}
-
-.flair-073:before {
-    background-position: 0 -1277px;
-}
-
-.flair-074:before {
-    background-position: -22px -1277px;
-}
-
-.flair-075:before {
-    background-position: 0 -1299px;
-}
-
-.flair-076:before {
-    background-position: -22px -1299px;
-}
-
-.flair-077:before {
-    background-position: 0 -1321px;
-}
-
-.flair-078:before {
-    background-position: -22px -1321px;
-}
-
-.flair-079:before {
-    background-position: 0 -1343px;
-}
-
-.flair-07a:before {
-    background-position: -22px -1343px;
-}
-
-.flair-07b:before {
-    background-position: 0 -1365px;
-}
-
-.flair-07c:before {
-    background-position: -22px -1365px;
-}
-
-.flair-07d:before {
-    background-position: 0 -1387px;
-}
-
-.flair-07e:before {
-    background-position: -22px -1387px;
-}
-
-.flair-07f:before {
-    background-position: 0 -1409px;
-}
-
-.flair-080:before {
-    background-position: -22px -1409px;
-}
-
-.flair-081:before {
-    background-position: 0 -1431px;
-}
-
-.flair-082:before {
-    background-position: -22px -1431px;
-}
-
-.flair-083:before {
-    background-position: 0 -1453px;
-}
-
-.flair-084:before {
-    background-position: -22px -1453px;
-}
-
-.flair-085:before {
-    background-position: 0 -1475px;
-}
-
-.flair-086:before {
-    background-position: -22px -1475px;
-}
-
-.flair-087:before {
-    background-position: 0 -1497px;
-}
-
-.flair-088:before {
-    background-position: -22px -1497px;
-}
-
-.flair-089:before {
-    background-position: 0 -1519px;
-}
-
-.flair-08a:before {
-    background-position: -22px -1519px;
-}
-
-.flair-08b:before {
-    background-position: 0 -1541px;
-}
-
-.flair-08c:before {
-    background-position: -22px -1541px;
-}
-
-.flair-08d:before {
-    background-position: 0 -1563px;
-}
-
-.flair-08e:before {
-    background-position: -22px -1563px;
-}
-
-.flair-08f:before {
-    background-position: 0 -1585px;
-}
-
-.flair-090:before {
-    background-position: -22px -1585px;
-}
-
-.flair-091:before {
-    background-position: 0 -1607px;
-}
-
-.flair-092:before {
-    background-position: -22px -1607px;
-}
-
-.flair-093:before {
-    background-position: 0 -1629px;
-}
-
-.flair-094:before {
-    background-position: -22px -1629px;
-}
-
-.flair-095:before {
-    background-position: 0 -1651px;
-}
-
-.flair-096:before {
-    background-position: -22px -1651px;
-}
-
-.flair-097:before {
-    background-position: 0 -1673px;
-}
-
-.flair-098:before {
-    background-position: -22px -1673px;
-}
-
-.flair-099:before {
-    background-position: 0 -1695px;
-}
-
-.flair-09a:before {
-    background-position: -22px -1695px;
-}
-
-.flair-09b:before {
-    background-position: 0 -1717px;
-}
-
-.flair-09c:before {
-    background-position: -22px -1717px;
-}
-
-.flair-09d:before {
-    background-position: 0 -1739px;
-}
-
-.flair-09e:before {
-    background-position: -22px -1739px;
-}
-
-.flair-09f:before {
-    background-position: 0 -1761px;
-}
-
-.flair-0a0:before {
-    background-position: -22px -1761px;
-}
-
-.flair-0a1:before {
-    background-position: 0 -1783px;
-}
-
-.flair-0a2:before {
-    background-position: -22px -1783px;
-}
-
-.flair-0a3:before {
-    background-position: 0 -1805px;
-}
-
-.flair-0a4:before {
-    background-position: -22px -1805px;
-}
-
-.flair-0a5:before {
-    background-position: 0 -1827px;
-}
-
-.flair-0a6:before {
-    background-position: -22px -1827px;
-}
-
-.flair-0a7:before {
-    background-position: 0 -1849px;
-}
-
-.flair-0a8:before {
-    background-position: -22px -1849px;
-}
-
-.flair-0a9:before {
-    background-position: 0 -1871px;
-}
-
-.flair-0aa:before {
-    background-position: -22px -1871px;
-}
-
-.flair-0ab:before {
-    background-position: 0 -1893px;
-}
-
-.flair-0ac:before {
-    background-position: -22px -1893px;
-}
-
-.flair-0ad:before {
-    background-position: 0 -1915px;
-}
-
-.flair-0ae:before {
-    background-position: -22px -1915px;
-}
-
-.flair-0af:before {
-    background-position: 0 -1937px;
-}
-
-.flair-0b0:before {
-    background-position: -22px -1937px;
-}
-
-.flair-0b1:before {
-    background-position: 0 -1959px;
-}
-
-.flair-0b2:before {
-    background-position: -22px -1959px;
-}
-
-.flair-0b3:before {
-    background-position: 0 -1981px;
-}
-
-.flair-0b4:before {
-    background-position: -22px -1981px;
-}
-
-.flair-0b5:before {
-    background-position: 0 -2003px;
-}
-
-.flair-0b6:before {
-    background-position: -22px -2003px;
-}
-
-.flair-0b7:before {
-    background-position: 0 -2025px;
-}
-
-.flair-0b8:before {
-    background-position: -22px -2025px;
-}
-
-.flair-0b9:before {
-    background-position: 0 -2047px;
-}
-
-.flair-0ba:before {
-    background-position: -22px -2047px;
-}
-
-.flair-0bb:before {
-    background-position: 0 -2069px;
-}
-
-.flair-0bc:before {
-    background-position: -22px -2069px;
-}
-
-.flair-0bd:before {
-    background-position: 0 -2091px;
-}
-
-.flair-0be:before {
-    background-position: -22px -2091px;
-}
-
-.flair-0bf:before {
-    background-position: 0 -2113px;
-}
-
-.flair-0c0:before {
-    background-position: -22px -2113px;
-}
-
-.flair-0c1:before {
-    background-position: 0 -2135px;
-}
-
-.flair-0c2:before {
-    background-position: -22px -2135px;
-}
-
-.flair-0c3:before {
-    background-position: 0 -2157px;
-}
-
-.flair-0c4:before {
-    background-position: -22px -2157px;
-}
-
-.flair-0c5:before {
-    background-position: 0 -2179px;
-}
-
-.flair-0c6:before {
-    background-position: -22px -2179px;
-}
-
-.flair-0c7:before {
-    background-position: 0 -2201px;
-}
-
-.flair-0c8:before {
-    background-position: -22px -2201px;
-}
-
-.flair-0c9:before {
-    background-position: 0 -2223px;
-}
-
-.flair-0ca:before {
-    background-position: -22px -2223px;
-}
-
-.flair-0cb:before {
-    background-position: 0 -2245px;
-}
-
-.flair-0cc:before {
-    background-position: -22px -2245px;
-}
-
-.flair-0cd:before {
-    background-position: 0 -2267px;
-}
-
-.flair-0ce:before {
-    background-position: -22px -2267px;
-}
-
-.flair-0cf:before {
-    background-position: 0 -2289px;
-}
-
-.flair-0d0:before {
-    background-position: -22px -2289px;
-}
-
-.flair-0d1:before {
-    background-position: 0 -2311px;
-}
-
-.flair-0d2:before {
-    background-position: -22px -2311px;
-}
-
-.flair-0d3:before {
-    background-position: 0 -2333px;
-}
-
-.flair-0d4:before {
-    background-position: -22px -2333px;
-}
-
-.flair-0d5:before {
-    background-position: 0 -2355px;
-}
-
-.flair-0d6:before {
-    background-position: -22px -2355px;
-}
-
-.flair-0d7:before {
-    background-position: 0 -2377px;
-}
-
-.flair-0d8:before {
-    background-position: -22px -2377px;
-}
-
-.flair-0d9:before {
-    background-position: 0 -2399px;
-}
-
-.flair-0da:before {
-    background-position: -22px -2399px;
-}
-
-.flair-0db:before {
-    background-position: 0 -2421px;
-}
-
-.flair-0dc:before {
-    background-position: -22px -2421px;
-}
-
-.flair-0dd:before {
-    background-position: 0 -2443px;
-}
-
-.flair-0de:before {
-    background-position: -22px -2443px;
-}
-
-.flair-0df:before {
-    background-position: 0 -2465px;
-}
-
-.flair-0e0:before {
-    background-position: -22px -2465px;
-}
-
-.flair-0e1:before {
-    background-position: 0 -2487px;
-}
-
-.flair-0e2:before {
-    background-position: -22px -2487px;
-}
-
-.flair-0e3:before {
-    background-position: 0 -2509px;
-}
-
-.flair-0e4:before {
-    background-position: -22px -2509px;
-}
-
-.flair-0e5:before {
-    background-position: 0 -2531px;
-}
-
-.flair-0e6:before {
-    background-position: -22px -2531px;
-}
-/*added as of April 4 2018*/.flair-0e7:before {
-    background-position: 0 -2553px;
-}
-
-.flair-0e8:before {
-    background-position: -22px -2553px;
-}
-
-.flair-0e9:before {
-    background-position: 0 -2575px;
-}
-
-.flair-0ea:before {
-    background-position: -22px -2575px;
-}
-
-.flair-0eb:before {
-    background-position: 0 -2597px;
-}
-
-.flair-0ec:before {
-    background-position: -22px -2597px;
-}
-
-.flair-0ed:before {
-    background-position: 0 -2619px;
-}
-
-.flair-0ee:before {
-    background-position: -22px -2619px;
-}
-/*added as of May 5 2018*/.flair-0ef:before {
-    background-position: 0 -2641px;
-}
-
-.flair-0f0:before {
-    background-position: -22px -2641px;
-}
-/*added as of May 11 2018*/.flair-0f1:before {
-    background-position: 0 -2663px;
-}
-
-.flair-0f2:before {
-    background-position: -22px -2663px;
-}
-/*June 22 2018*/.flair-0f3:before {
-    background-position: 0 -2685px;
-}
-
-.flair-0f4:before {
-    background-position: -22px -2685px;
-}
-/*July 20 2018*/.flair-0f5:before {
-    background-position: 0 -2707px;
-}
-
-.flair-0f6:before {
-    background-position: -22px -2707px;
-}
-/*July 22 2018*/.flair-0f7:before {
-    background-position: 0 -2729px;
-}
-
-.flair-0f8:before {
-    background-position: -22px -2729px;
-}
-/*August 24 2018*/.flair-0f9:before {
-    background-position: 0 -2751px;
-}
-
-.flair-0fa:before {
-    background-position: -22px -2751px;
-}
-
-.flair-0fb:before {
-    background-position: 0 -2773px;
-}
-
-.flair-0fc:before {
-    background-position: -22px -2773px;
-}
-/*September 21 2018*/.flair-0fd:before {
-    background-position: 0 -2795px;
-}
-
-.flair-0fe:before {
-    background-position: -22px -2795px;
-}
-
-.flair-0ff:before {
-    background-position: 0 -2817px;
-}
-
-.flair-100:before {
-    background-position: -22px -2817px;
-}
-/*Oct 19 2018*/.flair-101:before {
-    background-position: 0 -2839px;
-}
-
-.flair-102:before {
-    background-position: -22px -2839px;
-}
-/*Nov 16 2018*/.flair-103:before {
-    background-position: 0 -2861px;
-}
-
-.flair-104:before {
-    background-position: -22px -2861px;
-}
-/*Dec 14 2018*/.flair-105:before {
-    background-position: 0 -2883px;
-}
-
-.flair-106:before {
-    background-position: -22px -2883px;
-}
-/*Jan 4 2018*/.flair-107:before {
-    background-position: 0 -2905px;
-}
-
-.flair-108:before {
-    background-position: -22px -2905px;
-}
-/*Feb 5 2018*/.flair-109:before {
-    background-position: 0 -2927px;
-}
-
-.flair-10a:before {
-    background-position: -22px -2927px;
-}
-/*Special NTC flair*/.flair-10b:before {
-    background-image: url(%%ntcFlair%%);
-    border: none;
-    width: 22px;
-    height: 22px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.flair-10c:before {
-    background-image: url(%%ntcFlairS2%%);
-    border: none;
-    width: 22px;
-    height: 22px;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-/*EXTREMELY LATE SPRING FEST*/.flair-10d:before {
-    background-position: -22px -2949px;
-}
-/*SPLATFEST*/.flair-10e:before {
-    background-position: 0 -2971px;
-}
-
-.flair-10f:before {
-    background-position: -22px -2971px;
-}
-/*Chicken Vs Egg rematch*/.flair-110:before {
-    background-position: 0px -2993px;
-}
-
-.flair-111:before {
-    background-position: -22px -2993px;
-}
-/*Mushroom Vs Star*/.flair-112:before {
-    background-position: 0px -3015px;
-}
-
-.flair-113:before {
-    background-position: -22px -3015px;
-}
-/*Little Buddy + Squid Research Participant*/.flair-114:before {
-    background-position: 0px -3037px;
-}
-
-.flair-115:before {
-    background-position: -22px -3037px;
-}
-/*Discord Vs Reddit Customfest 9th July 2021*/.flair-116:before {
-    background-position: 0px -3059px;
-}
-
-.flair-117:before {
-    background-position: -22px -3059px;
-}
-/*UwU Vs OwO Customfest 2nd Oct 2021*/.flair-118:before {
-    background-position: 0px -3081px;
-}
-
-.flair-119:before {
-    background-position: -22px -3081px;
-}
-/*Choco-Strawberry Milk Customfest 17th Mar 2022*/.flair-11A:before {
-    background-position: 0px -3103px;
-}
-
-.flair-11B:before {
-    background-position: -22px -3103px;
-}
-/*Idol Customfest 10th-7-22*/.flair-11C:before {
-    background-position: 0px -3125px;
-}
-
-.flair-11D:before {
-    background-position: -22px -3125px;
-}
-/*GearGrubFun 18th-9-22*/.flair-11E:before {
-    background-position: 0px -3147px;
-}
-
-.flair-11F:before {
-    background-position: -22px -3147px;
-}
-
-.flair-120:before {
-    background-position: 0px -3169px;
-}
+/*Legacy User Flairs: a-101 - a-399*/
+.flair[class*="flair-a"]:before {
+	background-image: url(%%legacy-userflairs%%);
+}
+
+.flair-a-101:before{background-position:0px 0px}
+.flair-a-102:before{background-position:-22px 0px}
+.flair-a-103:before{background-position:0px -22px}
+.flair-a-104:before{background-position:-22px -22px}
+.flair-a-105:before{background-position:0px -44px}
+.flair-a-106:before{background-position:-22px -44px}
+.flair-a-107:before{background-position:0px -66px}
+.flair-a-108:before{background-position:-22px -66px}
+.flair-a-109:before{background-position:0px -88px}
+.flair-a-110:before{background-position:-22px -88px}
+.flair-a-111:before{background-position:0px -110px}
+.flair-a-112:before{background-position:-22px -110px}
+.flair-a-113:before{background-position:0px -132px}
+.flair-a-114:before{background-position:-22px -132px}
+.flair-a-115:before{background-position:0px -154px}
+.flair-a-116:before{background-position:-22px -154px}
+.flair-a-117:before{background-position:0px -176px}
+.flair-a-118:before{background-position:-22px -176px}
+.flair-a-119:before{background-position:0px -198px}
+.flair-a-120:before{background-position:-22px -198px}
+.flair-a-121:before{background-position:0px -220px}
+.flair-a-122:before{background-position:-22px -220px}
+.flair-a-123:before{background-position:0px -242px}
+.flair-a-124:before{background-position:-22px -242px}
+.flair-a-125:before{background-position:0px -264px}
+.flair-a-126:before{background-position:-22px -264px}
+.flair-a-127:before{background-position:0px -286px}
+.flair-a-128:before{background-position:-22px -286px}
+.flair-a-129:before{background-position:0px -308px}
+.flair-a-130:before{background-position:-22px -308px}
+.flair-a-131:before{background-position:0px -330px}
+.flair-a-132:before{background-position:-22px -330px}
+.flair-a-133:before{background-position:0px -352px}
+.flair-a-134:before{background-position:-22px -352px}
+.flair-a-135:before{background-position:0px -374px}
+.flair-a-136:before{background-position:-22px -374px}
+.flair-a-137:before{background-position:0px -396px}
+.flair-a-138:before{background-position:-22px -396px}
+.flair-a-139:before{background-position:0px -418px}
+.flair-a-140:before{background-position:-22px -418px}
+.flair-a-141:before{background-position:0px -440px}
+.flair-a-142:before{background-position:-22px -440px}
+.flair-a-143:before{background-position:0px -462px}
+.flair-a-144:before{background-position:-22px -462px}
+.flair-a-145:before{background-position:0px -484px}
+.flair-a-146:before{background-position:-22px -484px}
+.flair-a-147:before{background-position:0px -506px}
+.flair-a-148:before{background-position:-22px -506px}
+.flair-a-149:before{background-position:0px -528px}
+.flair-a-150:before{background-position:-22px -528px}
+.flair-a-151:before{background-position:0px -550px}
+.flair-a-152:before{background-position:-22px -550px}
+.flair-a-153:before{background-position:0px -572px}
+.flair-a-154:before{background-position:-22px -572px}
+.flair-a-155:before{background-position:0px -594px}
+.flair-a-156:before{background-position:-22px -594px}
+.flair-a-157:before{background-position:0px -616px}
+.flair-a-158:before{background-position:-22px -616px}
+.flair-a-159:before{background-position:0px -638px}
+.flair-a-160:before{background-position:-22px -638px}
+.flair-a-161:before{background-position:0px -660px}
+.flair-a-162:before{background-position:-22px -660px}
+.flair-a-163:before{background-position:0px -682px}
+.flair-a-164:before{background-position:-22px -682px}
+.flair-a-165:before{background-position:0px -704px}
+.flair-a-166:before{background-position:-22px -704px}
+.flair-a-167:before{background-position:0px -726px}
+.flair-a-168:before{background-position:-22px -726px}
+.flair-a-169:before{background-position:0px -748px}
+.flair-a-170:before{background-position:-22px -748px}
+.flair-a-171:before{background-position:0px -770px}
+.flair-a-172:before{background-position:-22px -770px}
+.flair-a-173:before{background-position:0px -792px}
+.flair-a-174:before{background-position:-22px -792px}
+.flair-a-175:before{background-position:0px -814px}
+.flair-a-176:before{background-position:-22px -814px}
+.flair-a-177:before{background-position:0px -836px}
+.flair-a-178:before{background-position:-22px -836px}
+.flair-a-179:before{background-position:0px -858px}
+.flair-a-180:before{background-position:-22px -858px}
+.flair-a-181:before{background-position:0px -880px}
+.flair-a-182:before{background-position:-22px -880px}
+.flair-a-183:before{background-position:0px -902px}
+.flair-a-184:before{background-position:-22px -902px}
+.flair-a-185:before{background-position:0px -924px}
+.flair-a-186:before{background-position:-22px -924px}
+.flair-a-187:before{background-position:0px -946px}
+.flair-a-188:before{background-position:-22px -946px}
+.flair-a-189:before{background-position:0px -968px}
+.flair-a-190:before{background-position:-22px -968px}
+.flair-a-191:before{background-position:0px -990px}
+.flair-a-192:before{background-position:-22px -990px}
+.flair-a-193:before{background-position:0px -1012px}
+.flair-a-194:before{background-position:-22px -1012px}
+.flair-a-195:before{background-position:0px -1034px}
+.flair-a-196:before{background-position:-22px -1034px}
+.flair-a-197:before{background-position:0px -1056px}
+.flair-a-198:before{background-position:-22px -1056px}
+.flair-a-199:before{background-position:0px -1078px}
+.flair-a-200:before{background-position:-22px -1078px}
+.flair-a-201:before{background-position:0px -1100px}
+.flair-a-202:before{background-position:-22px -1100px}
+.flair-a-203:before{background-position:0px -1122px}
+.flair-a-204:before{background-position:-22px -1122px}
+.flair-a-205:before{background-position:0px -1144px}
+.flair-a-206:before{background-position:-22px -1144px}
+.flair-a-207:before{background-position:0px -1166px}
+.flair-a-208:before{background-position:-22px -1166px}
+.flair-a-209:before{background-position:0px -1188px}
+.flair-a-210:before{background-position:-22px -1188px}
+.flair-a-211:before{background-position:0px -1210px}
+.flair-a-212:before{background-position:-22px -1210px}
+.flair-a-213:before{background-position:0px -1232px}
+.flair-a-214:before{background-position:-22px -1232px}
+.flair-a-215:before{background-position:0px -1254px}
+.flair-a-216:before{background-position:-22px -1254px}
+.flair-a-217:before{background-position:0px -1276px}
+.flair-a-218:before{background-position:-22px -1276px}
+.flair-a-219:before{background-position:0px -1298px}
+.flair-a-220:before{background-position:-22px -1298px}
+.flair-a-221:before{background-position:0px -1320px}
+.flair-a-222:before{background-position:-22px -1320px}
+.flair-a-223:before{background-position:0px -1342px}
+.flair-a-224:before{background-position:-22px -1342px}
+.flair-a-225:before{background-position:0px -1364px}
+.flair-a-226:before{background-position:-22px -1364px}
+.flair-a-227:before{background-position:0px -1386px}
+.flair-a-228:before{background-position:-22px -1386px}
+.flair-a-229:before{background-position:0px -1408px}
+.flair-a-230:before{background-position:-22px -1408px}
+
+/*Weapon User Flairs: b-401 - b-699*/
+.flair[class*="flair-b"]:before {
+	background-image: url(%%weapon-userflairs%%);
+}
+
+.flair-b-401:before{background-position:0px 0px}
+.flair-b-402:before{background-position:-22px 0px}
+.flair-b-403:before{background-position:0px -22px}
+.flair-b-404:before{background-position:-22px -22px}
+.flair-b-405:before{background-position:0px -44px}
+.flair-b-406:before{background-position:-22px -44px}
+.flair-b-407:before{background-position:0px -66px}
+.flair-b-408:before{background-position:-22px -66px}
+.flair-b-409:before{background-position:0px -88px}
+.flair-b-410:before{background-position:-22px -88px}
+.flair-b-411:before{background-position:0px -110px}
+.flair-b-412:before{background-position:-22px -110px}
+.flair-b-413:before{background-position:0px -132px}
+.flair-b-414:before{background-position:-22px -132px}
+.flair-b-415:before{background-position:0px -154px}
+.flair-b-416:before{background-position:-22px -154px}
+.flair-b-417:before{background-position:0px -176px}
+.flair-b-418:before{background-position:-22px -176px}
+.flair-b-419:before{background-position:0px -198px}
+.flair-b-420:before{background-position:-22px -198px}
+.flair-b-421:before{background-position:0px -220px}
+.flair-b-422:before{background-position:-22px -220px}
+.flair-b-423:before{background-position:0px -242px}
+.flair-b-424:before{background-position:-22px -242px}
+.flair-b-425:before{background-position:0px -264px}
+.flair-b-426:before{background-position:-22px -264px}
+.flair-b-427:before{background-position:0px -286px}
+.flair-b-428:before{background-position:-22px -286px}
+.flair-b-429:before{background-position:0px -308px}
+.flair-b-430:before{background-position:-22px -308px}
+.flair-b-431:before{background-position:0px -330px}
+.flair-b-432:before{background-position:-22px -330px}
+.flair-b-433:before{background-position:0px -352px}
+.flair-b-434:before{background-position:-22px -352px}
+.flair-b-435:before{background-position:0px -374px}
+.flair-b-436:before{background-position:-22px -374px}
+.flair-b-437:before{background-position:0px -396px}
+.flair-b-438:before{background-position:-22px -396px}
+.flair-b-439:before{background-position:0px -418px}
+.flair-b-440:before{background-position:-22px -418px}
+.flair-b-441:before{background-position:0px -440px}
+.flair-b-442:before{background-position:-22px -440px}
+.flair-b-443:before{background-position:0px -462px}
+.flair-b-444:before{background-position:-22px -462px}
+.flair-b-445:before{background-position:0px -484px}
+.flair-b-446:before{background-position:-22px -484px}
+.flair-b-447:before{background-position:0px -506px}
+.flair-b-448:before{background-position:-22px -506px}
+.flair-b-449:before{background-position:0px -528px}
+.flair-b-450:before{background-position:-22px -528px}
+.flair-b-451:before{background-position:0px -550px}
+.flair-b-452:before{background-position:-22px -550px}
+.flair-b-453:before{background-position:0px -572px}
+.flair-b-454:before{background-position:-22px -572px}
+.flair-b-455:before{background-position:0px -594px}
+
+/*Splatfest User Flairs: 701 - 999*/
+.flair[class*="flair-c"]:before {
+	background-image: url(%%splatfest-userflairs%%);
+}
+
+.flair-c-701:before{background-position:0px 0px}
+.flair-c-702:before{background-position:-22px 0px}
+.flair-c-703:before{background-position:-44px 0px}
+.flair-c-704:before{background-position:0px -22px}
+.flair-c-705:before{background-position:-22px -22px}
+.flair-c-706:before{background-position:-44px -22px}
+.flair-c-707:before{background-position:0px -44px}
+.flair-c-708:before{background-position:-22px -44px}
+.flair-c-709:before{background-position:-44px -44px}
 
 /* Countdown CSS */
 a[href="#days"], a[href="#hours"], a[href="#minutes"], a[href="#seconds"] {
@@ -5756,11 +4825,11 @@ a[href="#days"], a[href="#hours"], a[href="#minutes"], a[href="#seconds"] {
 }
 
 div.titlebox span.number:after {
-    content: " Inklings staying fresh.";
+    content: " Deep Cut enjoyers";
 }
 
 .titlebox .users-online .number:after {
-    content: " Inklings splatting.";
+    content: " Queued up for battle";
 }
 /* Flair selector size */
 .flairoptionpane {
@@ -5908,28 +4977,56 @@ div.titlebox span.number:after {
     }
 }
 
-.thing[data-fullname$="a"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="a"] > .midcol > .upmod:focus::after,.thing[data-fullname$="n"] > .midcol > .upmod:focus::after,.thing[data-fullname$="0"] > .midcol > .upmod:focus::after {
     content: "Booyah!";
 }
 
-.thing[data-fullname$="c"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="b"] > .midcol > .upmod:focus::after,.thing[data-fullname$="o"] > .midcol > .upmod:focus::after,.thing[data-fullname$="1"] > .midcol > .upmod:focus::after {
     content: "Ngyes!";
 }
 
-.thing[data-fullname$="d"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="c"] > .midcol > .upmod:focus::after,.thing[data-fullname$="p"] > .midcol > .upmod:focus::after,.thing[data-fullname$="2"] > .midcol > .upmod:focus::after {
     content: "Woomy!";
 }
 
-.thing[data-fullname$="e"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="d"] > .midcol > .upmod:focus::after,.thing[data-fullname$="q"] > .midcol > .upmod:focus::after,.thing[data-fullname$="3"] > .midcol > .upmod:focus::after {
     content: "You're a kid now";
 }
 
-.thing[data-fullname$="f"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="e"] > .midcol > .upmod:focus::after,.thing[data-fullname$="r"] > .midcol > .upmod:focus::after,.thing[data-fullname$="4"] > .midcol > .upmod:focus::after {
     content: "You're a squid now";
 }
 
-.thing[data-fullname$="g"] > .midcol > .upmod:focus::after {
+.thing[data-fullname$="f"] > .midcol > .upmod:focus::after,.thing[data-fullname$="s"] > .midcol > .upmod:focus::after,.thing[data-fullname$="5"] > .midcol > .upmod:focus::after {
     content: "Stay Fresh!";
+}
+
+.thing[data-fullname$="g"] > .midcol > .upmod:focus::after,.thing[data-fullname$="t"] > .midcol > .upmod:focus::after,.thing[data-fullname$="6"] > .midcol > .upmod:focus::after {
+    content: "Stay off the Hook!";
+}
+
+.thing[data-fullname$="h"] > .midcol > .upmod:focus::after,.thing[data-fullname$="u"] > .midcol > .upmod:focus::after,.thing[data-fullname$="7"] > .midcol > .upmod:focus::after {
+    content: "Veemo!";
+}
+
+.thing[data-fullname$="i"] > .midcol > .upmod:focus::after,.thing[data-fullname$="v"] > .midcol > .upmod:focus::after,.thing[data-fullname$="8"] > .midcol > .upmod:focus::after {
+    content: "Weyo!";
+}
+
+.thing[data-fullname$="j"] > .midcol > .upmod:focus::after,.thing[data-fullname$="w"] > .midcol > .upmod:focus::after,.thing[data-fullname$="9"] > .midcol > .upmod:focus::after {
+    content: "Ay!";
+}
+
+.thing[data-fullname$="k"] > .midcol > .upmod:focus::after,.thing[data-fullname$="x"] > .midcol > .upmod:focus::after {
+    content: "This Way!";
+}
+
+.thing[data-fullname$="l"] > .midcol > .upmod:focus::after,.thing[data-fullname$="y"] > .midcol > .upmod:focus::after {
+    content: "Catch ya later!";
+}
+
+.thing[data-fullname$="m"] > .midcol > .upmod:focus::after,.thing[data-fullname$="z"] > .midcol > .upmod:focus::after {
+    content: "For eel!?";
 }
 
 .thing .upmod:focus:after {
