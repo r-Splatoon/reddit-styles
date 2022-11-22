@@ -4808,7 +4808,10 @@ body {
 .flair-c-709:before{background-position:-44px -44px}
 
 /*Test User Flairs - Do not push to prod. Testing animated flairs: Designation z-1001*/
-.flair-d-1001:before{background-image: url(%%anim-test%%);}
+.flair-z-1001:before {
+	background-image: url(%%anim-test%%);
+	background-position: 0px 0px;
+	}
 
 /* Countdown CSS */
 a[href="#days"], a[href="#hours"], a[href="#minutes"], a[href="#seconds"] {
