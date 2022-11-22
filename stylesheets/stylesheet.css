@@ -4792,6 +4792,21 @@ body {
 .flair-b-454:before{background-position:-22px -572px}
 .flair-b-455:before{background-position:0px -594px}
 
+/*To be added for Chill Season 2022*/
+.flair-b-456:before{background-position:-22px -594px}
+.flair-b-457:before{background-position:0px -616px}
+.flair-b-458:before{background-position:-22px -616px}
+.flair-b-459:before{background-position:0px -638px}
+.flair-b-460:before{background-position:-22px -638px}
+.flair-b-461:before{background-position:0px -660px}
+.flair-b-462:before{background-position:-22px -660px}
+.flair-b-463:before{background-position:0px -682px}
+.flair-b-464:before{background-position:-22px -682px}
+.flair-b-465:before{background-position:0px -704px}
+.flair-b-466:before{background-position:-22px -704px}
+.flair-b-467:before{background-position:0px -726px}
+.flair-b-468:before{background-position:-22px -726px}
+
 /*Splatfest User Flairs: 701 - 999*/
 .flair[class*="flair-c"]:before {
 	background-image: url(%%splatfest-userflairs%%);
@@ -4806,13 +4821,6 @@ body {
 .flair-c-707:before{background-position:0px -44px}
 .flair-c-708:before{background-position:-22px -44px}
 .flair-c-709:before{background-position:-44px -44px}
-
-/*Test User Flairs - Do not push to prod. Testing animated flairs: Designation z-1001*/
-.flair[class*="flair-z"]:before {
-	background-image: url(%%anim-test%%);
-}
-
-.flair-z-1001:before{background-position: 0px 0px}
 
 /* Countdown CSS */
 a[href="#days"], a[href="#hours"], a[href="#minutes"], a[href="#seconds"] {
