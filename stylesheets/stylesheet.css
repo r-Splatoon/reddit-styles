@@ -4807,6 +4807,9 @@ body {
 .flair-c-708:before{background-position:-22px -44px}
 .flair-c-709:before{background-position:-44px -44px}
 
+/*Test User Flairs - Do not push to prod. Testing animated flairs: Designation z-1001*/
+.flair-d-1001:before{background-image: url(%%anim-test%%);}
+
 /* Countdown CSS */
 a[href="#days"], a[href="#hours"], a[href="#minutes"], a[href="#seconds"] {
     color: inherit;
