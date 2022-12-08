@@ -4439,10 +4439,10 @@ body {
     top: -285px;
     background: url(%%Splatoon3Logo-BR%%);
     background-repeat: no-repeat;
-    margin-top: -138px;
+    margin-top: -128px;
     left: 0px;
-    width: 321px;
-    height: 211px /* HALF THE HEIGHT OF YOUR IMAGE */;
+    width: 301px;
+    height: 170px /* HALF THE HEIGHT OF YOUR IMAGE */;
 }
 /* CENTER LOGO */
 #header-bottom-left {
