@@ -2784,13 +2784,15 @@ div.titlebox span.number:after {
 }
 
 .submit-page #header {
-    height: 144px;
+    height: 250px;
+	margin-bottom: 57px;
 }
 
 .submit-page #header-bottom-left {
-    top: 86px;
-    left: 50%;
-    margin-left: -262px;
+    position: absolute;
+	left: 16px;
+	right: 384px;
+	width: 100%;
 }
 
 .submit-page[class] .content {
@@ -4458,9 +4460,11 @@ body {
     z-index: -1;
 }
 
+/*
 .submit-page #header .pagename {
     top: -36px;
 }
+*/
 
 #header .pagename a {
     position: relative;
@@ -4823,6 +4827,9 @@ body {
 .flair-c-710:before{background-position:0px -66px}
 .flair-c-711:before{background-position:-22px -66px}
 .flair-c-712:before{background-position:-44px -66px}
+.flair-c-713:before{background-position:0px -88px}
+.flair-c-714:before{background-position:-22px -88px}
+.flair-c-715:before{background-position:-44px -88px}
 
 /* Countdown CSS */
 a[href="#days"], a[href="#hours"], a[href="#minutes"], a[href="#seconds"] {
