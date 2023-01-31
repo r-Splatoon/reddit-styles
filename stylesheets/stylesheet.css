@@ -4460,9 +4460,11 @@ body {
     z-index: -1;
 }
 
+/*
 .submit-page #header .pagename {
     top: -36px;
 }
+*/
 
 #header .pagename a {
     position: relative;
