@@ -2784,13 +2784,15 @@ div.titlebox span.number:after {
 }
 
 .submit-page #header {
-    height: 144px;
+    height: 250px;
+	margin-bottom: 57px;
 }
 
 .submit-page #header-bottom-left {
-    top: 86px;
-    left: 50%;
-    margin-left: -262px;
+    position: absolute;
+	left: 16px;
+	right: 384px;
+	width: 100%;
 }
 
 .submit-page[class] .content {
