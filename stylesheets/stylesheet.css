@@ -4825,6 +4825,19 @@ body {
 .flair-b-479:before{background-position:0px -858px}
 .flair-b-480:before{background-position:-22px -858px}
 
+/*Added Sizzle Season 2023*/
+.flair-b-481:before{background-position:0px -880px}
+.flair-b-482:before{background-position:-22px -880px}
+.flair-b-483:before{background-position:0px -902px}
+.flair-b-484:before{background-position:-22px -902px}
+.flair-b-485:before{background-position:0px -924px}
+.flair-b-486:before{background-position:-22px -924px}
+.flair-b-487:before{background-position:0px -946px}
+.flair-b-488:before{background-position:-22px -946px}
+.flair-b-489:before{background-position:0px -968px}
+.flair-b-490:before{background-position:-22px -968px}
+.flair-b-491:before{background-position:0px -990px}
+
 /*Splatfest User Flairs: 701 - 999*/
 .flair[class*="flair-c"]:before {
 	background-image: url(%%splatfest-userflairs%%);
