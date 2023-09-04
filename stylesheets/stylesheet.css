@@ -4837,6 +4837,18 @@ body {
 .flair-b-490:before{background-position:-22px -968px}
 .flair-b-491:before{background-position:0px -990px}
 
+/*Added Drizzle Season 2023*/
+.flair-b-492:before{background-position:-22px -990px}
+.flair-b-493:before{background-position:0px -1012px}
+.flair-b-494:before{background-position:-22px -1012px}
+.flair-b-495:before{background-position:0px -1034px}
+.flair-b-496:before{background-position:-22px -1034px}
+.flair-b-497:before{background-position:0px -1056px}
+.flair-b-498:before{background-position:-22px -1056px}
+.flair-b-499:before{background-position:0px -1078px}
+.flair-b-500:before{background-position:-22px -1078px}
+.flair-b-501:before{background-position:0px -1100px}
+
 /*Splatfest User Flairs: 701 - 999*/
 .flair[class*="flair-c"]:before {
 	background-image: url(%%splatfest-userflairs%%);
@@ -4869,6 +4881,12 @@ body {
 .flair-c-725:before{background-position:0px -176px}
 .flair-c-726:before{background-position:-22px -176px}
 .flair-c-727:before{background-position:-44px -176px}
+.flair-c-725:before{background-position:0px -176px}
+.flair-c-726:before{background-position:-22px -176px}
+.flair-c-727:before{background-position:-44px -176px}
+.flair-c-728:before{background-position:0px -198px}
+.flair-c-729:before{background-position:-22px -198px}
+.flair-c-730:before{background-position:-44px -198px}
 
 /* Countdown CSS */
 a[href="#days"], a[href="#hours"], a[href="#minutes"], a[href="#seconds"] {
