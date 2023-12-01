@@ -4849,6 +4849,17 @@ body {
 .flair-b-500:before{background-position:-22px -1078px}
 .flair-b-501:before{background-position:0px -1100px}
 
+/*Added Chill Season 2023*/
+.flair-b-502:before{background-position:-22px -1100px}
+.flair-b-503:before{background-position:0px -1122px}
+.flair-b-504:before{background-position:-22px -1122px}
+.flair-b-505:before{background-position:0px -1144px}
+.flair-b-506:before{background-position:-22px -1144px}
+.flair-b-507:before{background-position:0px -1166px}
+.flair-b-508:before{background-position:-22px -1166px}
+.flair-b-509:before{background-position:0px -1188px}
+.flair-b-510:before{background-position:-22px -1188px}
+
 /*Splatfest User Flairs: 701 - 999*/
 .flair[class*="flair-c"]:before {
 	background-image: url(%%splatfest-userflairs%%);
