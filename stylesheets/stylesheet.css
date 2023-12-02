@@ -86,7 +86,7 @@ body .btn,body button,.c-btn-primary,.wiki-page .wiki-page-content .wiki_button 
     margin: 0;
     height: 196px;
     border: none;
-    background: url(%%headerimg-sanitized%%) 50% 50% / cover no-repeat;
+    background: url(%%headerimg-bigrun%%) 50% 50% / cover no-repeat;
     z-index: 1;
     box-shadow: 0 2px 1.5px 0 rgba(0,0,0,.12),0 0 4px 0 rgba(0,0,0,.12);
 }
@@ -4430,7 +4430,7 @@ div.side .md h1 {
 }
 /*Background*/
 body {
-    background: url(%%background-love%%) repeat;
+    background: url(%%background-salmon%%) repeat;
 }
 /* ADDON: CUSTOM LOGO */
 #header .pagename a {
@@ -4439,7 +4439,7 @@ body {
     text-indent: -9999px;
     margin: 0;
     top: -285px;
-    background: url(%%Splatoon3Logo%%);
+    background: url(%%Splatoon3Logo-BR%%);
     background-repeat: no-repeat;
     margin-top: -128px;
     left: 0px;
