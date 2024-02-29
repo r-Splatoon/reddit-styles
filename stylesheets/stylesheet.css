@@ -4860,6 +4860,19 @@ body {
 .flair-b-509:before{background-position:0px -1188px}
 .flair-b-510:before{background-position:-22px -1188px}
 
+/*Added Fresh Season 2024*/
+.flair-b-511:before{background-position:0px -1210px}
+.flair-b-512:before{background-position:-22px -1210px}
+.flair-b-513:before{background-position:0px -1232px}
+.flair-b-514:before{background-position:-22px -1232px}
+.flair-b-515:before{background-position:0px -1254px}
+.flair-b-516:before{background-position:-22px -1254px}
+.flair-b-517:before{background-position:0px -1276px}
+.flair-b-518:before{background-position:-22px -1276px}
+.flair-b-519:before{background-position:0px -1298px}
+.flair-b-520:before{background-position:-22px -1298px}
+.flair-b-521:before{background-position:0px -1320px}
+
 /*Splatfest User Flairs: 701 - 999*/
 .flair[class*="flair-c"]:before {
 	background-image: url(%%splatfest-userflairs%%);
